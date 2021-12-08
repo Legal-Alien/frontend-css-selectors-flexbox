@@ -3,3 +3,28 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.one {
+display: flex;
+    align-items: flex-end;
+    align-content: end;
+    flex-wrap: wrap;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+.four {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
